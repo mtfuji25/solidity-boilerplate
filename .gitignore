@@ -1,3 +1,31 @@
+# gitignore 
 node_modules
 coverage
 coverage.json
+build
+/**/build
+.DS_Store
+node_modules
+# binary
+*.zip
+*.tar
+*.tar.gz
+# gpgp keys
+secring.*
+# pem keys
+*.pem
+# ansible
+*.retry
+# vim Session
+Session.vim
+Sessionx.vim
+# ---- mac os x -----
+# mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# ---- IDE's -----
+.vscode/
+.idea/
